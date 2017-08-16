@@ -7,14 +7,14 @@ h1{
     width: 90%;
     clear: both;
     margin: 0 auto;
-    background: rgba(238, 195, 10, 0.62)
+    padding: 1%;
+    background: <a href="depositphotos_32936781-stock-photo-art-floral-grunge-graphic-background.jpg">img</a>
   }
   #columna1 {
-   padding: 3%;
+   padding: 1%;
    margin-left: 5%;
    margin-top: 5%;
    margin-right: 5%;
    margin-bottom: 5%x;
-
    background: rgba(212, 174, 16, 0.82)
 }
