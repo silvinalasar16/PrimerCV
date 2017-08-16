@@ -1,3 +1,11 @@
 h1{
-  color: red
+  color: rgb(154, 9, 18);
+  front_family: Baskerville, sans serif;
+  background-color: rgba(226, 167, 53, 0.46)
+  }
+
+  #container {
+    width: 35%;
+    clear:both;
+    margin: left: 70% ;
   }
