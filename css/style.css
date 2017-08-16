@@ -4,9 +4,17 @@ h1{
   }
 
   #container {
-    width: 35%;
+    width: 90%;
     height: 30 auto;
     clear:both;
-    margin: left: 70% ;
+    margin: 5 auto ;
     background: rgba(226, 167, 53, 0.46)
   }
+ #columna1 {
+  width: 30%;
+  height: 30 auto;
+  clear:both;
+  margin-left: 70%;
+  margin-right: 0 auto;
+  background: rgb(215, 224, 35)
+}
