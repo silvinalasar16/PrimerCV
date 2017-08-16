@@ -5,16 +5,16 @@ h1{
 
   #container {
     width: 90%;
-    height: 30 auto;
-    clear:both;
-    margin: 5 auto ;
-    background: rgba(226, 167, 53, 0.46)
+    clear: both;
+    margin: 0 auto;
+    background: rgba(238, 195, 10, 0.62)
   }
- #columna1 {
-  width: 30%;
-  height: 30 auto;
-  clear:both;
-  margin-left: 70%;
-  margin-right: 0 auto;
-  background: rgb(215, 224, 35)
+  #columna1 {
+   padding: 3%;
+   margin-left: 5%;
+   margin-top: 5%;
+   margin-right: 5%;
+   margin-bottom: 5%x;
+
+   background: rgba(212, 174, 16, 0.82)
 }
