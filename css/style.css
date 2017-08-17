@@ -1,21 +1,30 @@
 h1{
   color: rgb(154, 9, 18);
-  front_family: Baskerville, sans serif;
+  front_family: arial, sans serif;
 }
 
 #container {
   width: 90%;
+  height: 90%;
   clear: both;
   margin: 0 auto;
   padding: 1% 2%;
   background: rgba(230, 201, 13, 0.6);
 }
- #columna1 {
+
+ #encabezado {
   width: 30%;
   float: left;
   background: rgba(212, 174, 16, 0.82);
   }
-#columna2 {
+
+  #imagen {
+    width: 46%;
+    height: 39%;
+    margin-left: 27%;
+      }
+
+#presentacion_general {
   width: 70%;
   float: right;
   background: rgba(174, 236, 167, 0);
