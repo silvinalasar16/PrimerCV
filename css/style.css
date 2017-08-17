@@ -11,10 +11,17 @@ h1{
   background:
 }
 #columna1 {
+  width: 30%;
+  float: left;
   padding: 1%;
   margin-left: 1%;
   margin-top: 1%;
   margin-right: 1%;
   margin-bottom: 1%x;
   background: rgba(212, 174, 16, 0.82)
+  width-
+}
+#columna2 {
+  width: 70%;
+  float: right;
 }
