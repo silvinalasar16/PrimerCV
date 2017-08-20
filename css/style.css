@@ -1,50 +1,55 @@
 body {
-  background: rgba(222, 164, 16, 0.54);
+  background: rgba(244, 206, 6, 0.58);
 }
 #container {
-  width: 90%;
+  width: 95a%;
   clear: both;
 
   }
 #perfil {
-    width: 23%;
+    width: 20%;
     height: 85%;
     float: left;
-    padding-left: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 1%;
+    padding-left: 5%;
+    padding-top: 5%;
     background: rgba(254, 195, 44, 0.97);
   }
   #imagen {
-    width: 90%;
-    height: 90%;
+    height: 90% auto;
     margin-top: 5%;
-    max-width: 100%;
+    max-width: 90%;
     }
 
   #presentacion {
-  width: 68%;
+  width: 50%;
   float: right;
-  padding: 2%;
-  margin-bottom: 2%;
+  margin-top: 2%;
+  padding: 10%;
+  margin-bottom: 1%;
   background: rgba(212, 174, 16, 0.7);
     }
 
   #formacion {
-  width: 68%;
+  width: 50%;
   float: right;
-  padding: 2%;
+  padding: 10%;
+  margin-top: 1%;
   background: rgba(201, 170, 5, 0.83);
   }
   #experiencia {
-  width: 68%;
+  width: 50%;
   float: right;
-  padding: 2%;
-  margin-top: 2%;
+  padding: 10%;
+  margin-top: 1%;
   background: rgba(210, 171, 5, 0.64);
   }
   #portfolio {
-  width: 68%;
+  width: 50%;
   float: right;
-  padding: 2%;
-  margin-top: 2%;
+  padding: 10%;
+  margin-top: 1%;
   background: rgba(201, 165, 9, 0.77);
   }
