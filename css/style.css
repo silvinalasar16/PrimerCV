@@ -1,14 +1,13 @@
 body {
-  background: rgba(244, 206, 6, 0.58);
+background: rgba(219, 160, 8, 0.57);
 }
 #container {
-  width: 95a%;
+  width: 95%;
   clear: both;
-
   }
-#perfil {
+
+  #perfil {
     width: 20%;
-    height: 85%;
     float: left;
     margin-left: 2%;
     margin-top: 2%;
@@ -20,7 +19,7 @@ body {
   #imagen {
     height: 90% auto;
     margin-top: 5%;
-    max-width: 90%;
+    max-width: 80%;
     }
 
   #presentacion {
