@@ -5,6 +5,10 @@ background: rgba(219, 160, 8, 0.57);
   width: 95%;
   clear: both;
   }
+  .datos h2 {
+    color: rgb(113, 28, 6);
+    font-size: ;
+  }
 
   #perfil {
     width: 20%;
