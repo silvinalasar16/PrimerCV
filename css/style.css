@@ -22,6 +22,15 @@ background: rgba(219, 160, 8, 0.57);
     background: rgba(254, 195, 44, 0.97);
     border: 5px solid rgba(210, 148, 9, 0.39);
   }
+  .boton {
+    width: 80%;
+    clear: both;
+    font-family:serif;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    background-color: rgba(205, 126, 6, 0.77);
+    border: 2px solid rgba(217, 143, 16, 0.71);
+  }
   #imagen {
     height: 90% auto;
     margin-top: 5%;
