@@ -7,8 +7,7 @@ background: rgba(219, 160, 8, 0.57);
   }
   .datos h2 {
     color: rgb(113, 28, 6);
-    font-size: ;
-  }
+    }
 
   #perfil {
     width: 20%;
@@ -25,34 +24,28 @@ background: rgba(219, 160, 8, 0.57);
     margin-top: 5%;
     max-width: 80%;
     }
-
   #presentacion {
-  width: 50%;
   float: right;
   margin-top: 2%;
-  padding: 10%;
   margin-bottom: 1%;
   background: rgba(212, 174, 16, 0.7);
     }
-
-  #formacion {
-  width: 50%;
+.padding{
+  width: 60%;
   float: right;
-  padding: 10%;
-  margin-top: 1%;
+  padding-top: 5%;
+  padding-left: 7%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  border: rgb(176, 129, 37);
+  }
+  #formacion {
   background: rgba(201, 170, 5, 0.83);
   }
   #experiencia {
-  width: 50%;
-  float: right;
-  padding: 10%;
-  margin-top: 1%;
   background: rgba(210, 171, 5, 0.64);
   }
   #portfolio {
-  width: 50%;
-  float: right;
-  padding: 10%;
-  margin-top: 1%;
   background: rgba(201, 165, 9, 0.77);
   }
