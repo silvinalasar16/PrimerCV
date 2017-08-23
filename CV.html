@@ -3,21 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>CVLasar-Silvina</title>
-  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+
   <link rel="stylesheet" href="css/extras.css">
   <link rel="stylesheet" href="css/unslider.css">
-
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/unslider.js"></script>
 </head>
 
 <body>
         <div id="container" class="datos">
         <div id="perfil">
             <img id="imagen" src="IMG_20170813_221927626CV.jpg"/>
-
-            <p class="boton"><a href="#presentacion">Presentacion</a></p>
-            <p class="boton"><a href="#formacion">Formación</a></p>
-            <p class="boton"><a href="#experiencia">Experiencia</a></p>
-            <p class="boton"><a href="#portfolio">Portfolio</a></p>
+          <ol id="bot">
+            <li><p class="boton"><a href="#presentacion">Presentación</a></p></li>
+            <li><p class="boton"><a href="#formacion">Formación</a></p></li>
+            <li><p class="boton"><a href="#experiencia">Experiencia</a></p></li>
+            <li><p class="boton"><a href="#portfolio">Portfolio</a></p></li>
+          </ol>
         </div>
       <div id="presentacion" class="padding">
           <h1><strong>Quén soy</strong></h1>
@@ -60,14 +63,38 @@
 
           <div id="experiencia" class="padding">
             <h2><strong>Experiencia</strong></h2>
-            <p>
+            <p>Mi experiencia laboral es variada. En primera instacia tengo experiencia como docente de nivel medio en el área de Lengua y Literatura.
+            Anteriormente, he tenido esperiencia en la atención al público en una librería.
+          He realizado cursos de perfeccionamiento sobre la lengua española.
+        En la actualidad, curso la carrera de <em>Desarrollo Web Full Stack</em>. Estoy incursionando en este nuevo camino de la marcación de lenguaje y programación en Java Scirpt.</p>
           </div>
 
           <div id="portfolio" class="padding">
-            <h2><strong>Portfolio</strong></h2>
-          </div>
-        </div>
+            <h2><strong>Portfolio (Próximamente)</strong></h2>
+            <div class="slider">
+             <ul class="project">
+              <li>CV online</li>
+              <li>Sitio de noticias</li>
+              <li>Juego de rompecabezas</li>
+              <li>Pixel art</li>
+              <li>Ciudad zombie</li>
+              <li>Rompecabezas recargado</li>
+              <li>Encuestador</li>
+              <li>Mapa interactivo</li>
+              <li>Qué veo hoy</li>
+              <li>Peli vs. Peli</li>
+            </ul>
 
+            </div>
+        </div>
+        <script>
+        jQuery(document).ready(function($) {
+          $('.slider').unslider({
+            arrows: false,
+            autoplay: true
+           });
+         });
+         </script>
  </body>
 
 </html>
